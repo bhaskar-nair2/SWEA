@@ -24,7 +24,14 @@ html, body {
     background-size: cover;
     -o-background-size: cover;
 }
-
+.slideshow-holder{
+    height: 100%;
+    width: 100%;
+}
+.inh{
+    height: inherit;
+    width: inherit;
+}
 .nav-link{
     font-family: "BankGothic Md BT";
     color: white;
@@ -66,6 +73,7 @@ html, body {
 }
 .al{
     width: 20%;
+    transition: all ease-in-out;
 }
 .al:hover{
     animation: inc 0.8s;
