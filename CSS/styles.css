@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.sizes{
+    height: inherit;
+    width: inherit;
+    position: relative;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin-top: inherit;
+}
+
+.semi-trans{
+    background: rgba(0,0,0,0.5);
+}
+
+.back{
+    background: url('https://steamuserimages-a.akamaihd.net/ugc/865112235406152591/FA5AF1B65646393EE0DFF1C1E82A4F3C34369E81/') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.nav-link{
+    font-family: "BankGothic Md BT";
+    color: white;
+    font-size: larger;
+    text-shadow: 2px 2px 5px white;
+    }
+.nav-link:hover{
+    color: white;
+}
+
+.wav:hover{
+    animation: set 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes set {
+    50%{
+        text-shadow: 4px -4px 8px white;
+    }
+
+}
+.col-4,.col-2,col-1{
+    padding: 0%;
+
+}
+
+.container-fluid{
+    padding: 0%;
+}
+.left{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: -20%;
+    padding-bottom: 5%;
+}
+.btn-outline-dark{
+    color: white;
+    font-family: "BankGothic Md BT";
+    border-radius: 60px 5px 5px 60px;
+}
+.al{
+    width: 20%;
+}
+.al:hover{
+    animation: inc 0.8s;
+    animation-fill-mode: forwards;
+}
+@keyframes inc {
+    100%{
+        width: 50%
+    }
+}
